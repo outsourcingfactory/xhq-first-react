@@ -1,0 +1,218 @@
+body, html {
+    line-height: 1;
+    font-family: "STHeiti", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: #F5F5F5;
+    color: #525252;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 28px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*
+    box-sizing: border-box;
+    */
+}
+input{
+    background:none;
+    outline:none;
+    border:0px;
+}
+
+li, ol {
+    list-style: none;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.column {
+    flex-direction: column
+}
+
+.flex-item {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-justify {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-justify-around {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+}
+
+.flex-justify-between{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex: 1;
+}
+
+img {
+    content: normal !important;
+}
+.input-item {
+    padding: 0 40px;
+}
+.button-primary {
+    display: block;
+    height: 88px;
+    text-align: center;
+    border-radius: 88px;
+    line-height: 88px;
+    font-size: 34px;
+    background-color: #0a81fb;
+    color: #fff;
+    width: 100%;
+    margin: 50px auto 0;
+    letter-spacing: 5px;
+}
+
+.icon-arrow-left{
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+
+.text-left{
+    text-align: left
+}
+.text-right{
+    text-align: right
+}
+.text-center{
+    text-align: center
+}
+
+/* 银行卡背景图 */
+.icon-bg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+/*.helibao-bg {*/
+/*    background-image: url('../../image/bankCardBg/helibao_icon.png');*/
+/*}*/
+/*.yinlian-bg {*/
+/*    background-image: url('../../image/bankCardBg/haunkuan_fangshi_icon_006.png');*/
+/*}*/
+/*.gongshang-bg {*/
+/*    background-image: url('../../image/bankCardBg/gongshang.png');*/
+/*}*/
+/*.guangda-bg {*/
+/*    background-image: url('../../image/bankCardBg/guangda.png');*/
+/*}*/
+/*.guangfa-bg {*/
+/*    background-image: url('../../image/bankCardBg/guangfa.png');*/
+/*}*/
+/*.huaxia-bg {*/
+/*    background-image: url('../../image/bankCardBg/huaxia.png');*/
+/*}*/
+/*.jianshe-bg {*/
+/*    background-image: url('../../image/bankCardBg/jianshe.png');*/
+/*}*/
+/*.jiaotong-bg {*/
+/*    background-image: url('../../image/bankCardBg/jiaotong.png');*/
+/*}*/
+/*.minsheng-bg {*/
+/*    background-image: url('../../image/bankCardBg/minsheng.png');*/
+/*}*/
+/*.nongye-bg {*/
+/*    background-image: url('../../image/bankCardBg/nongye.png');*/
+/*}*/
+/*.pingan-bg {*/
+/*    background-image: url('../../image/bankCardBg/pingan.png');*/
+/*}*/
+/*.pufa-bg {*/
+/*    background-image: url('../../image/bankCardBg/pufa.png');*/
+/*}*/
+/*.shanghai-bg {*/
+/*    background-image: url('../../image/bankCardBg/shanghai.png');*/
+/*}*/
+/*.xinye-bg {*/
+/*    background-image: url('../../image/bankCardBg/xinye.png');*/
+/*}*/
+/*.youju-bg {*/
+/*    background-image: url('../../image/bankCardBg/youju.png');*/
+/*}*/
+/*.zhaoshang-bg {*/
+/*    background-image: url('../../image/bankCardBg/zhaoshang.png');*/
+/*}*/
+/*.zhongguo-bg {*/
+/*    background-image: url('../../image/bankCardBg/zhongguo.png');*/
+/*}*/
+/*.zhongxin-bg {*/
+/*    background-image: url('../../image/bankCardBg/zhongxin.png');*/
+/*}*/
+/*.hangzhou-bg {*/
+/*    background-image: url('../../image/bankCardBg/hangzhou.png');*/
+/*}*/
+/*.beijing-bg {*/
+/*    background-image: url('../../image/bankCardBg/beijing.png');*/
+/*}*/
+/*.zheshang-bg {*/
+/*    background-image: url('../../image/bankCardBg/zheshang.png');*/
+/*}*/
+/*.jiangsu-bg {*/
+/*    background-image: url('../../image/bankCardBg/jiangsu.png');*/
+/*}*/
+/*.baoshang-bg {*/
+/*    background-image: url('../../image/bankCardBg/baoshang.png');*/
+/*}*/
+/*.bohai-bg {*/
+/*    background-image: url('../../image/bankCardBg/bohai.png');*/
+/*}*/
+/*.dhd-bg {*/
+/*    background-image: url('../../image/bankCardBg/dahangdai_icon.png');*/
+/*}*/
+
+.rotate-90 {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.rotate-270 {
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}

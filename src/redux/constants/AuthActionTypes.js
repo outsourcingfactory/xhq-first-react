@@ -1,0 +1,4 @@
+//1.设置 跟新
+export const SET_USERTOKEN ='SET_USERTOKEN'
+export const UPDATE_USERTOKEN = 'UPDATE_USERTOKEN'
+
